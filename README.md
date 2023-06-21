@@ -4,7 +4,10 @@ You can watch some demos [here](https://drive.google.com/drive/folders/1KHv8n_rd
 
 ## Install
 Use Python 3.10
+For use your own virtual env
 ```
+virtualenv -p C:\Python310\python.exe venv
+
 pip install -r requirements.txt
 ```
 
