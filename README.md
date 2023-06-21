@@ -4,6 +4,9 @@ You can watch some demos [here](https://drive.google.com/drive/folders/1KHv8n_rd
 
 ## Install
 Use Python 3.10
+```
+pip install -r requirements.txt
+```
 
 ## Disclaimer
 This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
