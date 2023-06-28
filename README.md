@@ -10,6 +10,23 @@ virtualenv -p C:\Python310\python.exe venv
 
 pip install -r requirements.txt
 ```
+Bat de inicio
+```
+@echo off
+
+REM Actualizar el repositorio de Git
+git fetch
+git status
+git pull
+
+REM Activar el entorno virtual de Python
+call venv\Scripts\activate.bat
+
+REM Ejecutar el script de Python
+python run.py --execution-provider cuda
+
+pause
+```
 
 ## Disclaimer
 This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
